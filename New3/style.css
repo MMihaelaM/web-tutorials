@@ -1,0 +1,163 @@
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.blue{
+  color: blue;
+  font-family: verdana;
+}
+
+#green{
+  color: green;
+}
+
+#blue{
+  color: blue;
+  font-family: verdana;
+}
+
+
+.violet-text p{
+  color: violet;
+}
+
+div.pink-text p{
+  color: pink;
+}
+
+
+p:hover{      /* pseudo classes */
+color: red;
+border: 3px solid yellow;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:active{
+  color: green;
+
+}
+
+a:visited{
+  color: orange;
+}
+
+p:nth-child(3){
+  color: grey !important;
+
+}
+
+body p:nth-child(4){
+  font-size: 2rem;
+}
+
+p::first-letter{
+  font-size: 30px;
+  color: orange;
+}
+
+p:first-child{
+  font-size: 30px;
+  color: orange;
+}
+
+p::before{
+  content: "-";
+}
+
+
+
+/*p{
+  border: 3px dotted green;
+}*/
+
+.float{
+  float: left;
+  margin: 28px;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.box1{
+  /*border: 3px dashed red;*/
+  float: left;
+  width: 50%;
+  /*background: red;*/
+}
+
+.box2{
+  /*border: 3px dashed blue;*/
+  float: right;
+  width: 50%;
+  /*background: blue;*/
+}
+
+.box1 .inner-box{
+  background: #357077;
+  height: 300px;
+  margin-right: 15px;
+}
+
+.box2 .inner-box{
+  background: #bb00ff;
+  height: 300px;
+  margin-left: 15px;
+}
+
+.clear-floats{
+  clear: both;
+}
+
+ul{
+  /*list-style-type: circle;*/
+  /*list-style-type: upper-roman;*/
+  list-style-image: url('emoji.jpg');
+  /*padding-left: 50px;*/
+  margin: 30px;
+  /*list-style: none; */
+}
+
+ol{
+  /*list-style-type: square;*/
+}
+
+h2{
+  margin: 30px;
+}
+
+
+
+.rounded-corners{
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 300px;
+}
+
+.circle-image{
+  border-radius: 50%;
+}
+
+.block{
+  background-color: green;
+  border: 10px dotted darkgreen;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+
+
+.gradient{
+  height: 300px;
+  width: 100%;
+  background: lightblue;
+  background: radial-gradient(#f28cb2, #600024);
+}
